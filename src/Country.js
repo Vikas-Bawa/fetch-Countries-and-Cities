@@ -30,7 +30,7 @@ function Country() {
                         )
                     })}
                 </select>
-                <button className='btn btn-primary mt-3' onClick={() => navigate(`/country/${selectedCountry}`)}>Click</button>
+                <button className='btn btn-primary mt-3' onClick={() => navigate(`/country/${selectedCountry}`)}>Search</button>
             </div>
         </div>
     )
